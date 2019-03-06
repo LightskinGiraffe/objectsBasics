@@ -7,7 +7,13 @@
     - add a key named `favMovie` and set it to an array with two string elements in it
     - add a key named `favHobby` which will be a method that return a string of your choice; 
  */ 
-
+var student = {
+  name: "Sincere Bolling",
+  age: 14,
+  favFood: "mac n cheese",
+  favMovie: "mid90s",
+  favHobby: "video games"
+  };
 
  /*
  
@@ -15,11 +21,12 @@
  
  "'name' is 'age' years old and likes to 'favHobby'."
  */
-
+console.log(student.name + " is " + " years old and likes to " + student.favHobby);
   /*
     3.  Declare a variable named `house` and assign it to an EMPTY object.
   */
- 
+ var house = {};
+
   /*
     4.  Add the following properties to this object. Each property declaration expression will be on its own line and
      ending with semicolons (`;`). 
@@ -28,7 +35,14 @@
               - add a property named `size` and set it to a string of your choice including the unit sq feet.
               - add a property named `buy` and set it to a method that will return a string "Hell Yeah!"
 */
-  
+  house.stories = 2;
+  console.log(house);
+  house.color = "tan";
+  house.size = "3,000 sq feet";
+  house.buy = function(){
+    return "yayy!";
+  };
+  console.log(house);
 /*
     5.  Complete the following:
             - Console.log the object.

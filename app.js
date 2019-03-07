@@ -48,7 +48,8 @@ console.log(student.name + " is " + " years old and likes to " + student.favHobb
             - Console.log the object.
             - Invoke the method set for the property 'buy'.
 */
-
+console.log(house);
+console.log(house.buy);
   /* 
     6. Declare a variable named `birthdayGift` and set its value to be an EMPTY object.
      Next, you will add three properties to this object. 
@@ -56,11 +57,16 @@ console.log(student.name + " is " + " years old and likes to " + student.favHobb
               - add a property named `size` and set it to a number value between `0` and `20`.
               - add a property named `contents` and set it to be an empty array.
   */
-  
+  var birthdayGift = {};
+  birthdayGift.bagorbox = "box";
+  birthdayGift.size = 10;
+  birthdayGift.contents = [];
   /*
      7. Add 3 elements to your birthdayGift contents property
  */
- 
+ birthdayGift.contents[0] = "money";
+
+ console.log(birthdayGift.contents);
  /*
      8. Declare a variable named `bestMusicAlbum` and create the following properties (key-value pairs) to the object:
               - add a key named `artist` and set its value to the name of an artist of your choice.
